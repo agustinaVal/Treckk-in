@@ -1,0 +1,26 @@
+#Precios{
+   margin-top: 150px;
+   position: relative;
+   overflow-y: hidden;
+}
+
+.precios_img{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+#Precios h2{
+  text-align: center;
+}
+
+#Precios >div{
+  width: 60%;
+  margin: auto;
+}
+
+.card{
+    align: left;
+}
+
+

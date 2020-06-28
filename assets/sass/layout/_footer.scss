@@ -1,0 +1,20 @@
+#Footer{
+    background: $raisingBlack;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Footer a{
+    color: $white;
+    text-decoration: none; 
+    display: flex;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+

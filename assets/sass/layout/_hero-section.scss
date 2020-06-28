@@ -1,0 +1,27 @@
+#Hero-section{
+    background-size: cover;
+}
+
+.Hero-section__Text{
+    position: absolute;
+    top: 150px;
+    width: 700px;
+    @extend .wrap
+}
+
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Hero-section__Text{ 
+    padding:0;
+    position: relative;
+    width: 300px;
+    left: 50px;
+    top:10px;
+  }
+}
+
+
+

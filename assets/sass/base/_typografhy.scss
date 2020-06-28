@@ -1,0 +1,38 @@
+body {
+    font-family: 'Raleway',  'Open Sans';
+}
+
+h1{
+ font-size: $xxxxx-large;
+ font-weight: $bold;
+ font-family: $raleway;
+ @media only screen and (max-width: 600px) {
+  h1{ 
+    font-size: $xxxx-large;
+  }
+ }
+}
+
+
+h2{
+ font-size: $xxx-large;
+ font-weight: $bold;
+ font-family: $raleway;
+ @media only screen and (max-width: 600px) {
+  h2{ 
+    font-size: $xx-large;
+  }
+ }
+}
+
+
+h3{
+ font-size: $large;
+ font-weight: $bold;
+ font-family: $raleway;
+ @media only screen and (max-width: 600px) {
+  h3{ 
+    font-size: $medium;
+  }
+ }
+}

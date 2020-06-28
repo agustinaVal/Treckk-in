@@ -1,0 +1,29 @@
+// abstracs
+
+@import "abstracs/variables";
+@import "abstracs/mixins";
+
+
+// vendors
+
+@import "vendors/bootstrap4.5/bootstrap";
+
+// base
+
+@import "base/reset";
+@import "base/typografhy";
+@import "base/base";
+
+
+// layout
+
+@import "layout/Caracteristicas";
+@import "layout/hero-section";
+@import "layout/Precios";
+@import "layout/footer";
+
+
+// components
+
+@import "components/buttons";
+@import "components/navbar";

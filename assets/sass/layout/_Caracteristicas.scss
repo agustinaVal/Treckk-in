@@ -1,0 +1,27 @@
+#Características h2{
+   text-align: center;
+}
+
+.caracteristicas{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    position:relative;  
+}
+.caracteristicas__img img{
+   width: 100%;
+   vertical-align: middle;
+} 
+.caracteristicas__text{
+   vertical-align: middle;
+} 
+
+@media only screen and (max-width: 600px) {
+    .caracteristicas{ 
+    padding:5px;
+  }
+
+}
+
+
